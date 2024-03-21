@@ -1,0 +1,29 @@
+{
+  "name": "ts-decorator-manipulator",
+  "version": "1.0.0-alpha.12",
+  "description": "A utility for using Decorators with TypeScript.",
+  "author": "norami",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honeysol/mobx-library.git",
+    "directory": "packages/ts-decorator-manipulator"
+  },
+  "scripts": {
+    "start": "tsdx watch --tsconfig tsconfig.build.json --verbose --noClean",
+    "build": "tsdx build --tsconfig tsconfig.build.json",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "prepublish": "npm run build"
+  },
+  "main": "dist/index.js",
+  "module": "dist/ts-decorator-manipulator.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "README.md",
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
